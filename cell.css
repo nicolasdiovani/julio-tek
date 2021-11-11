@@ -1,0 +1,181 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    width:100%;
+    height:135px;
+    background-color: #1b98e0;
+    display: block;
+    float: left;
+}
+/*
+#e8f1f2 braco
+#1b98e0 azul normal
+#13293d nigga blue
+#247ba0 azul meio escuro
+#006494 azul meio mais escuro
+*/
+header .note{
+    float:left;
+    display:block;
+    height:60px;
+    margin-left:20px;
+    padding-top:16px;
+}
+header .pes{
+    float: right;
+    position: relative;
+    top:48%;
+    height:40px;
+    width:38%;
+    margin-right:3px;
+}
+header .pes input{
+    height:28px;
+    float: right;
+    width:100%;
+    background-color:#e8f1f2;
+    border-radius:5px;
+}
+header nav{
+    width:100%;
+    height:40px;
+    background-color:#025074;
+    margin-top:20px;
+    float:left;
+}
+header div .lupa{
+    display: none;
+}
+header .insta{
+    height:27%;
+    float: right;
+    margin-right:2px;
+}
+header .face{
+    height:24%;
+    float: right;
+    margin-top: 3px;
+    margin-right: 4px;
+    display: block;
+}
+header .zap{
+    height: 29%;
+    float: right;
+    display: block;
+}
+.drop{
+    background-color: #e8f1f2;
+    display: none;
+    height:232px;
+    width:178px;
+    border: black solid 1px;
+    border-top: none;
+}
+
+.cair:hover .drop{
+    display:block;
+}
+header nav button[name="drop"]{
+    cursor:pointer;
+    border:none;
+    height:28px;
+    width:180px;
+    border-radius:2px;
+    background-color:#006594;
+
+}
+header nav button p{
+    float: left;
+    padding-left: 35px;
+    font-size:17px;
+}
+.seta{
+    height:14px;
+    padding-right: 40px;
+    padding-top: 4px;
+}
+.cair:hover .buto{
+    background-color: #e8f1f2;
+    border-radius: 0px;
+    border: 1px black solid;
+    border-bottom: none;
+}
+.cair{
+    cursor:pointer;
+    height:28px;
+    width:178.5px;
+    margin-top: 6px;
+    margin-left: 5px;
+    border-radius:2px;
+    background-color:#006594;
+    border:none;
+}
+.drop ul li{
+    list-style: none;
+    height:29px;
+    width:178px;
+    background-color: #e8f1f2;
+}
+.drop ul li:hover{
+    background-color:#006594;
+}
+.drop ul li a p{
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.drop ul li a{
+    text-decoration: none;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menus li{
+    display:none;
+}
+.menus{
+    position: relative;
+    left:190px;
+    width:60%;
+}
+.menus a{
+    text-decoration: none;
+    color:black;
+}
+.menus li p{
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 4px;
+    font-size:17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    height:800px;
+    background-color: white;
+}
+footer{
+    background-color:#1b98e0;
+    width:100%;
+    height:100px;
+}
+footer div{
+    height:5px;
+    width:100%;
+    background-color:#025074;
+    margin-top:-20px;
+}
+footer img{
+    float: right;
+    display: block;
+    margin-right:10px;
+    margin-top:20px;
+    height:50%;
+}
+footer h2{
+    height:40px;
+    width:40%;
+    margin-left:10%;
+    padding-top:25px;
+    font-size: 120%;
+}
