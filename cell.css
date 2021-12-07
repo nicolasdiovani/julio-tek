@@ -19,7 +19,7 @@ header{
 header .note{
     float:left;
     display:block;
-    height:60px;
+    height:70px;
     margin-left:20px;
     padding-top:16px;
 }
@@ -69,11 +69,11 @@ header .zap{
     background-color: #e8f1f2;
     display: none;
     height:232px;
-    width:178px;
+    width:180px;
     border: black solid 1px;
     border-top: none;
+    position: absolute;
 }
-
 .cair:hover .drop{
     display:block;
 }
@@ -84,7 +84,6 @@ header nav button[name="drop"]{
     width:180px;
     border-radius:2px;
     background-color:#006594;
-
 }
 header nav button p{
     float: left;
@@ -111,19 +110,23 @@ header nav button p{
     border-radius:2px;
     background-color:#006594;
     border:none;
+    margin-top: -10px;
+    position: absolute;
+    z-index: 9999;
 }
 .drop ul li{
     list-style: none;
-    height:29px;
+    height:28.9px;
     width:178px;
     background-color: #e8f1f2;
+    margin-left:-32px;
 }
 .drop ul li:hover{
     background-color:#006594;
 }
 .drop ul li a p{
     text-decoration: none;
-    padding-top: 5px;
+    padding-top: 3px;
     padding-left: 10px;
 }
 .drop ul li a{
@@ -151,8 +154,8 @@ header nav button p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 main{
-    height:800px;
-    background-color: white;
+    background-color: #e8f1f2;
+    height:1550px;
 }
 footer{
     background-color:#1b98e0;
@@ -174,8 +177,103 @@ footer img{
 }
 footer h2{
     height:40px;
-    width:40%;
+    width:50%;
     margin-left:10%;
     padding-top:25px;
     font-size: 120%;
+}
+#top h2{
+    margin-top:15px;
+    margin-bottom:15px;
+    float: left;
+    display: block;
+    font-family:fantasy;
+    margin-left:10px;
+}
+.carousel-control-prev{
+    margin-top: 190px;
+}
+.carousel-control-next{
+    margin-top: 190px;
+}
+#top{
+    height:700px;
+    width:100%;
+    float: left;
+    display: block;
+    line-height:23px;
+}
+#top h2{
+    float: left;
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom:-20px;
+}
+.ban{
+    object-fit: cover;
+    object-position:0px;
+    height:300px;
+    width:100%;
+    float: left;
+    display: block;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.carousel-control-prev{
+    margin-top: 40px;
+}
+.carousel-control-next{
+    margin-top: 40px;
+}
+.pro{
+    box-shadow: 0px 0px 10px 1px  black;
+    height: auto;
+    width: 43%;
+    margin-left:4.6%;
+    background-color: #e8f1f2;
+    float: left;
+    display: block;
+    margin-top: 25px;
+    color:#13293d;
+}
+.pro:hover{
+    color: #1b98e0;
+}
+.comp{
+    width:95%;
+    margin-left:2.5%;
+    margin-top:7px;
+}
+.pro p{
+    margin-left:10px;
+}
+.pro strong p{
+    font-size:18px;
+}
+.pro2{
+    display: none;
+}
+.bane{
+    object-fit: cover;
+    object-position: 0px;
+    height:200px;
+    width:100%;
+    margin-top:20px;
+    float: left;
+    display: block;
+}
+.quad{
+    height: 200px;
+    width:100%;
+    background-color:#d3d3d3;
+    float: left;
+    display: block;
+}
+.quad{
+    margin-top:25px;
+}
+.caminhodepao{
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom:-20px;
 }

@@ -19,7 +19,7 @@ header{
 header .note{
     float:left;
     display:block;
-    height:67px;
+    height:77px;
     margin-left:20px;
     padding-top:13px;
 }
@@ -42,6 +42,7 @@ header nav{
     background-color:#025074;
     margin-top:0px;
     float:left;
+    display: block;
 }
 header div input{
     padding-left:5px;
@@ -53,6 +54,7 @@ header div .lupa{
     top:-42px;
     background-color:#e8f1f2 ;
     cursor: pointer;
+    margin-right:5px;
 }
 header .insta{
     height:27%;
@@ -75,11 +77,11 @@ header .zap{
     background-color: #e8f1f2;
     display: none;
     height:232px;
-    width:178px;
+    width:180px;
     border: black solid 1px;
     border-top: none;
+    float: left;
 }
-
 .cair:hover .drop{
     display:block;
 }
@@ -90,7 +92,8 @@ header nav button[name="drop"]{
     width:180px;
     border-radius:2px;
     background-color:#006594;
-
+    display: block;
+    float: left;
 }
 header nav button p{
     float: left;
@@ -111,25 +114,32 @@ header nav button p{
 .cair{
     cursor:pointer;
     height:28px;
-    width:10%;
+    width:120px;
     margin-top:-28px;
     margin-left: 5px;
     border-radius:2px;
     background-color:#006594;
     border:none;
+    margin-top:-44px;
+    position: absolute;
+    z-index: 9999;
 }
 .drop ul li{
     list-style: none;
-    height:29px;
-    width:178.5px;
+    height:28.9px;
+    width:178px;
     background-color: #e8f1f2;
+    margin-left:-32px;
+}
+.menus ul{
+    margin-left:-20px;
 }
 .drop ul li:hover{
     background-color:#006594;
 }
 .drop ul li a p{
     text-decoration: none;
-    padding-top: 5px;
+    padding-top: 2px;
     padding-left: 10px;
 }
 .drop ul li a{
@@ -152,7 +162,8 @@ header nav button p{
 .menus{
     position: relative;
     left:190px;
-    width:60%;
+    width:70%;
+    margin-left: -25px;
 }
 .menus a{
     text-decoration: none;
@@ -161,13 +172,18 @@ header nav button p{
 .menus li p{
     padding-left: 30px;
     padding-right:30px;
-    padding-top: 4px;
+    padding-top: 1px;
     font-size:17px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 main{
-    height:800px;
-    background-color: white;
+    height:1980px;
+    background-color: #e8f1f2;
+}
+main article{
+    height:160px;
+    width:100%;
+    display: block;
 }
 footer{
     background-color:#1b98e0;
@@ -191,6 +207,99 @@ footer h2{
     height:40px;
     width:40%;
     margin-left:16%;
-    padding-top:35px;
+    padding-top:30px;
     font-size: 150%;
+}
+#top{
+    height:700px;
+    width:70%;
+    float: left;
+    margin-left:15%;
+    display: block;
+    line-height:23px;
+}
+#top h2{
+    float: left;
+    display: block;
+    margin-bottom:-20px;
+}
+.ban{
+    object-fit: cover;
+    object-position:0px;
+    height:300px;
+    width:100%;
+    float: left;
+    display: block;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.carousel-control-prev{
+    margin-top: 40px;
+}
+.carousel-control-next{
+    margin-top: 40px;
+}
+.pro{
+    box-shadow: 0px 0px 10px 1px  black;
+    height: auto;
+    width: 27%;
+    margin-left:4.6%;
+    background-color: #e8f1f2;
+    float: left;
+    display: block;
+    margin-top: 25px;
+    color:#13293d;
+}
+.pro:hover{
+    color: #1b98e0;
+}
+.pro p{
+    margin-left:10px;
+}
+.pro strong p{
+    font-size:25px;
+}
+.pro2{
+    box-shadow: 0px 0px 10px 1px  black;
+    height: auto;
+    width: 27%;
+    margin-left:4.6%;
+    background-color: #e8f1f2;
+    float: left;
+    display: block;
+    margin-top: 25px;
+    color:#13293d;
+}
+.pro2:hover{
+    color: #1b98e0;
+}
+.pro2 p{
+    margin-left:10px;
+}
+.pro2 strong p{
+    font-size:25px;
+}
+.comp{
+    width:95%;
+    margin-left:2.5%;
+    margin-top:7px;
+}
+.bane{
+    object-fit: cover;
+    object-position: 0px;
+    height:200px;
+    width:100%;
+    margin-top:20px;
+    float: left;
+    display: block;
+}
+.quad{
+    height: 200px;
+    width:100%;
+    background-color:#d3d3d3;
+    float: left;
+    display: block;
+}
+.quad{
+    margin-top:25px;
 }
